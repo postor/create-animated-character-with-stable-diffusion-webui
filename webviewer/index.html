@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Loop</title>
+    <style>
+        #canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="status">Loading...</h1>
+
+    <label for="intervalInput">Interval (ms):</label>
+    <input type="number" id="intervalInput" value="100" onchange="changeInterval()" />
+
+    <canvas id="canvas" width="1024" height="1024"></canvas>
+
+    <script src="index.js"></script>
+</body>
+</html>
